@@ -1,53 +1,88 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Martin's Fish</title>
-	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="styles/main.css">
-</head>
-<body>
-	<div class="header">
-		<header>
-		  <div><img src="images/logo.png" alt="Martins Aquarium"></div>
-		  <h1>A collection of exotic fish with care tips and Martin's personal favorite fish harvest locations.</h1>
-		</header>
-	</div>
-	<div class="fishTank">
-		<section class="fishList">
-			<article class="fish-card">
-				<div><img class="fish-image" src="images/bluefish.jpg" /></div>
-				<h3 class="fish-name">Swisher</h3>
-				<ul>
-					<li class="fish-details">Stripped Jelly Fish</li>
-					<li class="fish-details">Length: 2 inches</li>
-					<li class="fish-details">Found: Myrtle Beach</li>
-					<li class="fish-details">Diet: Crumbs</li>
-				</ul>
-        		</article>
-			<article class="fish-card">
-				<div><img class="fish-image" src="images/bluefish.jpg" /></div>
-				<h3 class="fish-name">Swisher</h3>
-				<ul>
-					<li class="fish-details">Stripped Jelly Fish</li>
-					<li class="fish-details">Length: 2 inches</li>
-					<li class="fish-details">Found: Myrtle Beach</li>
-					<li class="fish-details">Diet: Crumbs</li>
-				</ul>
-        		</article>
-			<article class="fish-card">
-				<div><img class="fish-image" src="images/bluefish.jpg" /></div>
-				<h3 class="fish-name">Swisher</h3>
-				<ul>
-					<li class="fish-details">Stripped Jelly Fish</li>
-					<li class="fish-details">Length: 2 inches</li>
-					<li class="fish-details">Found: Myrtle Beach</li>
-					<li class="fish-details">Diet: Crumbs</li>
-				</ul>
-        		</article>
-		</section>
-	</div>	
-</body>
-</html>
+/* Be sure to create a styles directory and put this file in there */
+/* @import "tips.css"; */
+
+body {
+	background-color: antiquewhite;
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+}
+
+header {
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	background-color: aqua
+}
+
+header h1 {
+	line-height: 1em;
+	color: darkblue;
+	text-align: left;
+	padding: 0 2em;
+	font-size: 1.5em;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 1em;
+	overflow: hidden;
+	background-color: rgb(100, 128, 128);
+	display: flex;
+	justify-content: flex-end; 
+  }
+  
+nav li {
+	display: inline;
+	margin: 0 1em;
+  }
+
+nav a {
+	color: white;
+}
+
+nav a:hover {
+	color: lightsalmon;
+}
+nav a:active {
+	color: lightgreen;
+}
+
+.fishTank {
+	margin: 1em 0;
+	display: flex;
+}
+
+.fishList{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;	
+}
+
+.fish-card {
+	background-color: lightcyan;
+	margin: .5em;
+	max-width: 200px;
+}
+
+.fish-card ul {
+	list-style-type:none;
+	padding: .5em;
+	margin: .2em;
+	font-size: .8em;
+}
+
+.fish-image {
+	width: 100%;
+	height: auto;
+}
+
+.section-main {
+	margin: 1em;
+}
+
+footer {
+	background-color: darkcyan;
+	color: whitesmoke;
+	text-align: center;
+}
