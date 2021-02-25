@@ -1,5 +1,4 @@
 // A list of ALL fish data the class wrote up.
-
 const fishCollection = [
 	{
 		saltWater: true,
@@ -203,7 +202,6 @@ const fishCollection = [
 		inches: 7,
 		image: "bluefish.jpg"
 	},
-	{ saltWater: true, harvestLocation: "Atlantic, Pacific, and southern sea", diet: "smaller fish", name: "bluefin tuna", species: "Thunnus thynnus", inches: 84, image: bluefin.pg },
 	{
 		saltwater: true,
 		harvestLocation: "Baltic Sea",
@@ -214,3 +212,8 @@ const fishCollection = [
 		image: "bluefish.jpg"
 	}
 ];
+
+// A function to return fishCollection
+export const getFish = () => {
+	return fishCollection;
+}
