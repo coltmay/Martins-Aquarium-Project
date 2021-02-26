@@ -18,7 +18,7 @@ export const FishList = () => {
         fishHTMLRepresentation  += Fish(oneThingFromTheSea);
     }
     //Injects completed HTML from loop where it belongs
-    contentElement .innerHTML += `
+    contentElement.innerHTML += `
         ${fishHTMLRepresentation }
     `
 }

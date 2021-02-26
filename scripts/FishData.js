@@ -16,9 +16,8 @@ const fishCollection = [
 		name: "Bob",
 		species: "Guppy",
 		inches: 3,
-		image: "pinkfish.jpg"
+		image: "bluefish.jpg"
 	},
-	{ saltWater: true, harvestLocation: "Atlantic Ocean", diet: "squid", name: "BigBoss", species: "Amber Jack", inches: 60, image: "greyfish.jpg" },
 	{
 		saltWater: true,
 		harvestLocation: "Pacific Ocean",
@@ -51,7 +50,7 @@ const fishCollection = [
 		harvestLocation: "Amazon Basin",
 		diet: "brine shrimp",
 		name: "Myrti",
-		image: "pinkfish.jpg",
+		image: "bluefish.jpg",
 		inches: 12,
 		species: "angel fish"
 	},
@@ -59,7 +58,7 @@ const fishCollection = [
 		saltWater: true,
 		harvestLocation: "Atlantic Ocean",
 		diet: "Plankton",
-		fishName: "Nemo",
+		name: "Nemo",
 		species: "Clownfish",
 		inches: 4,
 		image: "bluefish.jpg"
@@ -89,10 +88,8 @@ const fishCollection = [
 		name: "Whiskers",
 		species: "Ictalurus furcatus",
 		inches: 39,
-		image: "blueCatfish.jpg"
+		image: "bluefish.jpg"
 	},
-	{ saltWater: true, harvestLocation: "South Pacific", diet: "shrimp", inches: 64, species: "Tuna", name: "Bruno", image: "bluefish.jpg" },
-	{ saltWater: false, harvestLocation: "Petsmart", diet: "algae", name: "Dorothy", species: "goldfish", inches: 3, img: "bluefish.jpg" },
 	{
 		saltWater: false,
 		harvestLocation: "Lake Tahoe",
@@ -118,7 +115,7 @@ const fishCollection = [
 		name: "Pizza",
 		species: "Tuna",
 		inches: 40,
-		image: "tuna.jpg"
+		image: "bluefish.jpg"
 	},
 	{
 		saltWater: false,
@@ -127,7 +124,7 @@ const fishCollection = [
 		name: "Finn",
 		species: "Bass",
 		inches: 20,
-		image: "bluefish.jpeg",
+		image: "bluefish.jpg",
 	},
 	{
 		saltWater: true,
@@ -159,9 +156,9 @@ const fishCollection = [
 	{
 		saltWater: true,
 		harvestLocation: "Atlantic Sea",
-		name: "flipper",
+		name: "Flipper",
 		inches: 12,
-		image: "orangefish.jpg",
+		image: "bluefish.jpg",
 		diet: "worms",
 		species: "garibaldi"
 	},
@@ -181,7 +178,7 @@ const fishCollection = [
 		name: "Cthulhu",
 		species: "Old One",
 		inches: 999,
-		image: "pinkfish.jpg"
+		image: "bluefish.jpg"
 	},
 	{ saltWater: false, harvestLocation: "Amazon River", diet: "smaller fish", name: "Bitey", species: "Pirhana", inches: 7.5, image: "bluefish.jpg" },
 	{
