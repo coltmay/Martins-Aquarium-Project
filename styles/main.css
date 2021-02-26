@@ -8,10 +8,28 @@ body {
 }
 
 header {
-	display: flex;
 	flex-wrap: nowrap;
 	align-items: center;
-	background-color: aqua
+	background-color: aqua;
+}
+
+main {
+	display: flex;
+}
+
+.mainContent {
+	width: 70%;
+}
+
+aside {
+	display: flex;
+	width: 30%;
+	flex-direction: column;
+	background-color: rgb(65, 174, 225);
+}
+
+aside h3 {
+	text-align: center;
 }
 
 header h1 {
@@ -49,19 +67,13 @@ nav a:active {
 }
 
 .fishTank {
-	margin: 1em 0;
-	display: flex;
-}
-
-.fishList{
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-evenly;	
 }
 
 .fish-card {
 	background-color: lightcyan;
-	margin: .5em;
+	margin: 1.2em;
 	max-width: 200px;
 }
 
@@ -79,6 +91,14 @@ nav a:active {
 
 .section-main {
 	margin: 1em;
+}
+
+.tipList {
+	margin: 2em;
+}
+
+.locationList {
+	margin: 2em;
 }
 
 footer {
