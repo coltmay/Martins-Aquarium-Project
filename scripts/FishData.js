@@ -1,4 +1,4 @@
-// A list of ALL fish data the class wrote up.
+// A list of ALL fish data the class wrote up.  This data was created and retrieved, this is what we want to display
 const fishCollection = [
 	{
 		saltWater: true,
@@ -210,7 +210,7 @@ const fishCollection = [
 	}
 ];
 
-// A function to return fishCollection
+// A function to return fishCollection we want to export a function rather than the array of objects we have created
 export const getFish = () => {
 	return fishCollection;
 }
