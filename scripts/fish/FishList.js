@@ -4,7 +4,7 @@ import { Fish } from "./Fish.js";
 //Function that appends gets the fish from getFish, assigns it to a variable, then loops through the array, finally injective the build HTML into the needed location.
 export const FishList = () => {
     //Locates positon of HTML to insert list into and assigns to variable.
-    const contentElement  = document.querySelector(".fishList");
+    const contentElement  = document.querySelector(".fishTank");
     //Pulls the entire array from FishList with getFish.
     const fishes = getFish();
     //Empty variable to hold fishHTML as it loops.
