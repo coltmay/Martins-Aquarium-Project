@@ -214,3 +214,36 @@ const fishCollection = [
 export const getFish = () => {
 	return fishCollection;
 }
+
+export const getMostHolyFish = () => {
+	// 3, 6, 9, 12, etc... fish
+	const holyFishArray = [];
+	for (const eachFish of fishCollection) {
+		if (eachFish.inches % 3 === 0) {
+			holyFishArray.push(eachFish);
+		}
+	}
+	return holyFishArray;
+}
+
+export const getSoldierFish = () => {
+	// 5, 10, !15, 20, 25, etc... fish
+	const soldiersArray = [];
+	for (const eachFish of fishCollection) {
+		if (eachFish.inches % 5 === 0 && eachFish.inches % 3 !== 0) {
+			soldiersArray.push(eachFish);
+		}
+	}
+	return soldiersArray;
+}
+
+export const getUnworthy = () => {
+	// Any fish not a multiple of 3 or 5
+	const unworthyArray = [];
+	for (const eachFish of fishCollection) {
+		if (!(eachFish.inches % 5 === 0 || eachFish.inches % 3 === 0)) {
+			unworthyArray.push(eachFish);
+		}
+	}
+	return unworthyArray;
+}
